@@ -1,7 +1,8 @@
 # [Docker media server](https://github.com/PARC6502/docker-media-server)
 
 ## Containers
-
+<your IP>:7000 Jellyfin
+<your IP>:7001 Deluge
 - Traefik - reverse proxy, I've set it up so all \*.yourdomain domains go to the machine with the media server, then traefik makes it so service_name.yourdomain goes to the right service
 - Jellyfin - media server
 - Sonnarr - tv downloader
