@@ -35,7 +35,7 @@ nano .env
 2. Create the folders needed for the setup, replace the vars with actual directories unless you've put them in the bash environment
 
 ```bash
-mkdir -p jellyfin/config jellyfin/cache sonarr radarr ombi deluge jackett ${DLDIR}/completed ${DLDIR}/incomplete ${MOVIESDIR} ${TVDIR}
+mkdir -p jellyfin/config jellyfin/cache deluge ${MOVIESDIR}
 ```
 
 (I've seen that some people need to change the permissions on the content folder, if you do `chmod -R 0777 content/` should work, although changing folder ownership is probs a better option)
