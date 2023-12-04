@@ -9,7 +9,7 @@ services:
     volumes:
       - ./jellyfin/config:/config
       - ./jellyfin/cache:/cache
-      - "${MOVIESDIR}:/media/movies"
+      - "${DLDIR}:/media/movies"
       - /etc/localtime:/etc/localtime:ro
     user: "1000:1000"
   
